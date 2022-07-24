@@ -8,17 +8,27 @@ img{
   margin-left: 250px;
 }
 
+.link{
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
+
 .navbar ul{
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 40px;
   margin-right: 150px;
-  margin-top: 35px;
+  margin-top: 40px;
 }
 
 .navbar ul li{
   font-size: 23px;
   font-family: 'Bebas Neue';
 }
+
 

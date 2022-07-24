@@ -8,8 +8,8 @@ const Footer = () => {
       <div>
         <img src={dattaLabLogo} alt="Dattalab Logo" width='150px' height='150px'/>
       </div>
-      <div>
-        Todos los derechos reservados
+      <div className='rights'>
+        Todos los derechos reservados ©
       </div>
     </footer>
   )
