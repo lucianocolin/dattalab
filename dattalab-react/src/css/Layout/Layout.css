@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background-color: #092C66;
+  color: white;
+  min-height: 100px;
+}
+
+.footer{
+  background-color: #092C66;
+  color: white;
+}
