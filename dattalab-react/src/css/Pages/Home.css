@@ -1,3 +1,4 @@
+
 .slider{
   width: 100%;
   margin: auto;
@@ -11,7 +12,7 @@ ul img{
 .slider ul{
   display: flex;
   width: 300%;
-
+  
   animation: cambio 20s infinite alternate;
   animation-timing-function: ease-in-out;
 }
@@ -21,6 +22,28 @@ ul img{
   margin: 0;
 }
 
+.main-title{
+  position: absolute;
+  left: 26%;
+  margin-top: 150px;
+  text-align: center;
+  width: 700px;
+}
+
+h1{
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Helvetica';
+  font-size: 50px;
+  color: white;
+}
+
+h3{
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Helvetica';
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+}
 
 @keyframes cambio {
   0% { margin-left: 0; }
@@ -31,4 +54,23 @@ ul img{
 
   70% { margin-left: -200%; }
   100% { margin-left: -200%; }
+}
+
+.us-section{
+  text-align: center;
+  min-height: 400px;
+  margin-top: 70px;
+}
+
+.us-section h2{
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+}
+
+.us-section p{
+  font-family: 'Helvetica';
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding: 0 200px;
 }
