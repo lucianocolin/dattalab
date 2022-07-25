@@ -1,0 +1,74 @@
+.cards-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+}
+
+.consulting-card{
+  background-color: #6298E7;
+  color: white;
+  width: 550px;
+  height: 340px;
+  font-family: 'Helvetica';
+  margin-top: 70px;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+
+.consulting-card h5{
+  font-size: 30px;
+  font-weight:bold;
+  text-align: center;
+  padding: 30px;
+}
+
+.consulting-card p{
+  margin-left: 30px;
+  font-size: 18px;
+  line-height: 37px;
+}
+
+.consulting-icon{
+  position: absolute;
+  left: 580px;
+  top: 1590px;
+  font-size: 70px;
+}
+
+.surveys-card{
+  background-color: #70C4B2;
+  color: white;
+  width: 550px;
+  height: 340px;
+  font-family: 'Helvetica';
+  margin-top: 70px;
+  margin-right: 150px;
+  margin-bottom: 100px;
+}
+
+.surveys-card h5{
+  font-size: 30px;
+  font-weight:bold;
+  text-align: center;
+  padding: 30px;
+}
+
+.surveys-card p{
+  margin-left: 30px;
+  font-size: 18px;
+  line-height: 37px;
+}
+
+.survey-icon{
+  position: absolute;
+  right: 270px;
+  top: 1590px;
+  font-size: 70px;
+}

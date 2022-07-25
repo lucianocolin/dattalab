@@ -30,10 +30,10 @@ const Header = () => {
               <Link to='/' className='link'>NOSOTROS</Link>
             </li>
             <li>
-              <Link to='/' className='link'>{igLogo}</Link>
+              <a href='https://www.instagram.com/dattalab.consultora/' target='blank' className='link'>{igLogo}</a>
             </li>
             <li>
-              <Link to='/' className='link'>{facebookLogo}</Link>
+              <a href='https://www.facebook.com/dattalabtuc' target='blank' className='link'>{facebookLogo}</a>
             </li>
           </ul>
         </nav>
