@@ -2,10 +2,15 @@ import React from 'react';
 import '../../css/Pages/WhatWeDo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faChartSimple } from '@fortawesome/free-solid-svg-icons';
+import ContactImg from '../../imgs/contact.jpg'
+import { Button } from 'react-bootstrap';
 
 const WhatWeDo = () => {
   return (<>
     <h2>¿Qué Hacemos?</h2>
+    <div className='to-who'>
+      <p>Propuestas dirigidas a dirigentes políticos y sociales, funcionarios, directivos de ONG, empresarios de mandos medios y superiores</p>
+    </div>
     <div className='cards-container'>
       <div className='consulting-card'>
         <h5>Consultoría Política</h5>
@@ -31,6 +36,12 @@ const WhatWeDo = () => {
         </p>
         <FontAwesomeIcon icon={faChartSimple} className='survey-icon' />
       </div>
+    </div>
+    <div className='contact-img'>
+      <p>Contamos con amplia experiencia asesorando políticos, empresarios,
+      líderes y aquellos interesados en desarrollar una comunicación efectiva</p>
+      <Button variant='success' className='contact-img-btn'>Contactanos</Button>
+      <img src={ContactImg} alt="Contact" />
     </div>
     </>
   )
