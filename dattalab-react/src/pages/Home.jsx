@@ -24,7 +24,8 @@ const Home = () => {
           Nos dedicamos a la asesoría personalizada mediante consultoría privada, encuestas con un sistema 
           propio y bases de datos actualizadas para obtener resultados reales, orientando a nuestros clientes
           sobre su imágen pública, la de su equipo o partido político y sobre el pensamiento general sobre un 
-          tema en específico.  </p>
+          tema en específico. Estamos erradicados en San Miguel de Tucumán pero con representación en todo el país.
+          Hemos trabajado a la par de candidatos a nivel presidencial. </p>
       </div>
     </main>
   )

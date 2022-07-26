@@ -9,6 +9,20 @@ h2{
   justify-content: center;
   font-family: 'Bebas Neue';
   font-size: 50px;
+  color: white;
+  background-color: #092C66;
+  padding: 10px;
+}
+
+.to-who{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.to-who p{
+  font-size: 20px;
+  font-family: 'Helvetica';
 }
 
 .consulting-card{
@@ -38,7 +52,7 @@ h2{
 .consulting-icon{
   position: absolute;
   left: 580px;
-  top: 1590px;
+  top: 1660px;
   font-size: 70px;
 }
 
@@ -69,6 +83,47 @@ h2{
 .survey-icon{
   position: absolute;
   right: 270px;
-  top: 1590px;
+  top: 1660px;
   font-size: 70px;
+}
+
+.contact-img{
+  width: 100%;
+  height: 400px;
+  background-color: #092C66;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.contact-img img{
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+@supports(object-fit: cover){
+  .contact-img img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.contact-img p{
+  position: absolute;
+  font-family: 'Helvetica';
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  padding: 0 230px;
+  margin-top: 130px;
+  text-shadow: 1px 1px 20px black;
+}
+
+.contact-img-btn{
+  font-size: 20px !important;
+  position: absolute;
+  margin-top: 240px;
 }
