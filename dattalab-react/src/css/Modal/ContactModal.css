@@ -1,0 +1,17 @@
+
+.modal-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: bold;
+}
+
+.inputs{
+  width: 400px !important;
+  align-self: center;
+}
+
+.errorMsg{
+  font-weight: normal;
+  color: red;
+}

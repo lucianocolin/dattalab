@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../css/Pages/WhatWeDo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import ContactImg from '../../imgs/contact.jpg'
 import { Button } from 'react-bootstrap';
+import ContactModal from '../Modal/ContactModal';
 
 const WhatWeDo = () => {
+
+  const [showModal, setShowModal] = useState(false);
+
   return (<>
     <h2>¿Qué Hacemos?</h2>
     <div className='to-who'>
@@ -40,9 +44,16 @@ const WhatWeDo = () => {
     <div className='contact-img'>
       <p>Contamos con amplia experiencia asesorando políticos, empresarios,
       líderes y aquellos interesados en desarrollar una comunicación efectiva</p>
-      <Button variant='success' className='contact-img-btn'>Contactanos</Button>
+      <Button 
+      variant='success' 
+      className='contact-img-btn'
+      onClick={() => setShowModal(true)} >Contactanos</Button>
       <img src={ContactImg} alt="Contact" />
     </div>
+
+    <ContactModal 
+    show={showModal}
+    onHide={()=> setShowModal(false)} />
     </>
   )
 }
