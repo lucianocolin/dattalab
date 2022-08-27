@@ -1,0 +1,18 @@
+
+.card-img{
+  margin: 0 auto;
+}
+
+.card-survey{
+  transition: all 95ms;
+}
+
+.card-survey button{
+  font-weight: bold;
+}
+
+.card-survey:hover{
+  cursor: pointer;
+  transform: scale(1.04);
+  box-shadow: 1px 3px 10px;
+}

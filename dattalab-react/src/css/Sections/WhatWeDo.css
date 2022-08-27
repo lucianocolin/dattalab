@@ -4,7 +4,7 @@
   justify-content: space-around;
 }
 
-h2{
+.wwd-title{
   display: flex;
   justify-content: center;
   font-family: 'Bebas Neue';
@@ -17,7 +17,7 @@ h2{
 .to-who{
   display: flex;
   justify-content: center;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 
 .to-who p{
@@ -31,7 +31,7 @@ h2{
   width: 550px;
   height: 340px;
   font-family: 'Helvetica';
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 150px;
   margin-bottom: 100px;
 }
@@ -52,7 +52,7 @@ h2{
 .consulting-icon{
   position: absolute;
   left: 580px;
-  top: 1720px;
+  top: 1690px;
   font-size: 70px;
 }
 
@@ -62,7 +62,7 @@ h2{
   width: 550px;
   height: 340px;
   font-family: 'Helvetica';
-  margin-top: 70px;
+  margin-top: 50px;
   margin-right: 150px;
   margin-bottom: 100px;
 }
@@ -83,7 +83,7 @@ h2{
 .survey-icon{
   position: absolute;
   right: 270px;
-  top: 1720px;
+  top: 1690px;
   font-size: 70px;
 }
 
@@ -91,7 +91,7 @@ h2{
   width: 100%;
   height: 400px;
   background-color: #092C66;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   display: flex;
   justify-content: center;
   text-align: center;
