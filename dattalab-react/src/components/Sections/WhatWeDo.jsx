@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import '../../css/Pages/WhatWeDo.css';
+import '../../css/Sections/WhatWeDo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import ContactImg from '../../imgs/contact.jpg'
 import { Button } from 'react-bootstrap';
-import ContactModal from '../Modal/ContactModal';
+import ContactModal from '../Modals/ContactModal';
 
 const WhatWeDo = () => {
 
   const [showModal, setShowModal] = useState(false);
 
   return (<>
-    <h2>¿Qué Hacemos?</h2>
+    <h2 className='wwd-title'>¿Qué Hacemos?</h2>
     <div className='to-who'>
       <p>Propuestas dirigidas a dirigentes políticos y sociales, funcionarios, directivos de ONG, empresarios de mandos medios y superiores</p>
     </div>
