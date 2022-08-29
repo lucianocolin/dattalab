@@ -1,0 +1,63 @@
+.survey-modal-title h3{
+  font-weight: bold;
+}
+
+.survey-modal-header{
+  align-self: center;
+}
+
+.survey-modal-body{
+  height: 33rem;
+  display: flex;
+  flex-direction: row;
+  gap: 9rem;
+}
+
+.survey-modal-footer{
+  height: 4rem;
+}
+
+.survey-modal-img-container img{
+  display: inline-block;
+  width: 45rem;
+  margin: 0;
+}
+
+.survey-modal-results{
+  display: flex;
+  flex-direction: column;
+}
+
+.survey-modal-results h4{
+  font-weight: bold;
+}
+
+.survey-modal-results p{
+  margin-left: -5rem;
+  margin-top: 0.5rem;
+}
+
+.survey-tw-logo{
+  position: absolute;
+  font-size: 3rem;
+  color: #092C66;
+  right: 18rem;
+  bottom: 0;
+}
+
+.survey-ig-logo{
+  position: absolute;
+  font-size: 3rem;
+  color: #092C66;
+  right: 4rem;
+  bottom: 0;
+}
+
+.survey-fb-logo{
+  position: absolute;
+  font-size: 3rem;
+  color: #092C66;
+  right: 11rem;
+  bottom: 0;
+}
+

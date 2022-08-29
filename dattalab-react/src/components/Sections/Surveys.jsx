@@ -1,7 +1,9 @@
 import React from 'react';
 import '../../css/Sections/Surveys.css';
 import Cards from '../Cards/Cards';
-import pregunta1 from '../../imgs/pregunta-1.jpg'
+import pregunta1 from '../../imgs/pregunta-1.jpg';
+import pregunta2 from '../../imgs/pregunta-2.jpg';
+import pregunta3 from '../../imgs/pregunta-3.jpg';
 
 const Surveys = () => {
 
@@ -15,14 +17,14 @@ const Surveys = () => {
     },
     {
       id: 2,
-      header: pregunta1 ,
+      header: pregunta2 ,
       year: 2018,
       name: "Encuesta 2",
       title: "¿A quién votaría como senador/a de la provincia?"
     },
     {
       id: 3,
-      header: pregunta1 ,
+      header: pregunta3 ,
       year: 2017,
       name: "Encuesta 3",
       title: "¿Quién le gustaría que sea el reemplazo de Roberto Sánchez como concejal?"

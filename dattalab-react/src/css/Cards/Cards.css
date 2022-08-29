@@ -7,6 +7,10 @@
   transition: all 95ms;
 }
 
+.card-body{
+  min-height: 200px;
+}
+
 .card-survey button{
   font-weight: bold;
 }

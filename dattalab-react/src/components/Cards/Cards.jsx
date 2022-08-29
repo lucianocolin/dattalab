@@ -17,7 +17,7 @@ const Cards = ({ title, year, header }) => {
         <Card.Img variant="top" 
         src={header}
         className='card-img' />
-        <Card.Body>
+        <Card.Body className='card-body'>
           <Card.Title>{title}</Card.Title>
           <Card.Text>
             {year}
@@ -30,7 +30,9 @@ const Cards = ({ title, year, header }) => {
 
       <ShowSurveyModal 
       show={showModal}
-      onHide={()=> setShowModal(false)} />
+      onHide={()=> setShowModal(false)}
+      title={title}
+      header={header} />
     </>
   )
 };
