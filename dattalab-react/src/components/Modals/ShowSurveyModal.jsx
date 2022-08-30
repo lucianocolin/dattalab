@@ -34,9 +34,9 @@ const ShowSurveyModal = ({ show, onHide, title, header }) => {
           <p>AAAAAAAAAAAAA</p>
         </div>
         <div>
-          <a href='a' target='blank' className='survey-tw-logo'>{twLogo}</a>
-          <a href='a' target='blank' className='survey-ig-logo'>{igLogo}</a>
-          <a href='a' target='blank' className='survey-fb-logo'>{fbLogo}</a>
+          <a href='https://twitter.com/dattalab_' target='blank' className='survey-tw-logo'>{twLogo}</a>
+          <a href='https://www.instagram.com/dattalab.consultora/' target='blank' className='survey-ig-logo'>{igLogo}</a>
+          <a href='https://www.facebook.com/search/top?q=dattalab' target='blank' className='survey-fb-logo'>{fbLogo}</a>
         </div>
       </Modal.Body>
       <Modal.Footer className='survey-modal-footer'>

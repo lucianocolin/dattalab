@@ -6,9 +6,9 @@ import Home from "./pages/Home";
 function App() {
   return (
       <Layout>
-        <Home id='home' />
-        <WhatWeDo id='whatWeDo' />
-        <Surveys />
+        <Home/>
+        <WhatWeDo/>
+        <Surveys/>
       </Layout>
   );
 }
