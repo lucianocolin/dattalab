@@ -33,7 +33,7 @@ const Header = () => {
               <a href='https://www.instagram.com/dattalab.consultora/' target='blank' className='link'>{igLogo}</a>
             </li>
             <li>
-              <a href='https://www.facebook.com/dattalabtuc' target='blank' className='link'>{facebookLogo}</a>
+              <a href='https://www.facebook.com/search/top?q=dattalab' target='blank' className='link'>{facebookLogo}</a>
             </li>
           </ul>
         </nav>
