@@ -129,6 +129,12 @@
 }
 
 @media (max-width: 425px){
+
+  .cards-container{
+    gap: 2rem;
+    justify-content: center;
+  }
+
   .wwd-title{
     margin-top: 30px;
     font-size: 2rem;
@@ -142,7 +148,7 @@
   }
 
   .consulting-card{
-    width: 50%;
+    width: 20rem;
     height: 27rem;
     margin-bottom: 50px;
   }
@@ -162,7 +168,7 @@
   }
 
   .surveys-card{
-    width: 50%;
+    width: 20rem;
     height: 27rem;
     margin-bottom: 50px;
   }
