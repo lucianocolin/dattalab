@@ -61,3 +61,46 @@
   bottom: 0;
 }
 
+@media (max-width: 425px){
+
+  .survey-modal{
+    width: 24.9rem !important;
+  }
+
+  .survey-modal-header{
+    text-align: center;
+    height: auto;
+  }
+
+  .survey-modal-img-container img{
+    display: inline-block;
+    width: 21.8rem;
+  }
+
+  .survey-modal-body{
+    min-height: 23rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 2rem;
+  }
+
+  .survey-modal-results h4{
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+  }
+
+  .survey-modal-results p{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .survey-modal-footer{
+    height: auto;
+  }
+
+  .show-survey-modal-close-btn{
+    font-size: 2rem !important;
+  }
+}

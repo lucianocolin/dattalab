@@ -127,3 +127,75 @@
   position: absolute;
   margin-top: 240px;
 }
+
+@media (max-width: 425px){
+  .wwd-title{
+    margin-top: 30px;
+    font-size: 2rem;
+    padding: 10px;
+  }
+
+  .to-who p{
+    font-size: 1rem;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .consulting-card{
+    width: 50%;
+    height: 27rem;
+    margin-bottom: 50px;
+  }
+
+  .consulting-card h5{
+    font-size: 1rem;
+  }
+  
+  .consulting-card p{
+    margin-left: 7px;
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+  
+  .consulting-icon{
+    display: none;
+  }
+
+  .surveys-card{
+    width: 50%;
+    height: 27rem;
+    margin-bottom: 50px;
+  }
+
+  .surveys-card h5{
+    font-size: 1rem;
+  }
+
+  .surveys-card p{
+    margin-left: 7px;
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .survey-icon{
+    display: none;
+  }
+
+  .contact-img{
+    width: 100%;
+    height: 18rem;
+  }
+
+  .contact-img p{
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 4.3rem;
+    text-shadow: 1px 1px 20px black;
+  }
+  
+  .contact-img-btn{
+    font-size: 1.6rem !important;
+    position: absolute;
+    margin-top: 12rem;
+  }
+}

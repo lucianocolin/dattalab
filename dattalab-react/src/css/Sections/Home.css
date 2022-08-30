@@ -1,4 +1,3 @@
-
 .slider{
   width: 100%;
   margin: auto;
@@ -83,4 +82,46 @@ ul img{
   margin-top: 50px;
   padding: 0 200px;
   line-height: 28px;
+}
+
+
+@media (max-width: 425px){
+
+  ul img{
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .main-title{
+    width: 200px;
+    position: absolute;
+    top: -90px;
+    left: 17%;
+  }
+  
+  .main-title h1{
+    font-size: 1rem;
+  }
+
+  .main-title h3{
+    font-size: 0.6rem;
+  }
+
+  .us-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .us-section h2{
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .us-section p{
+    font-size: 1rem;
+    align-self: center;
+    padding: 0 0.5rem;
+  }
 }

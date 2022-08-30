@@ -10,3 +10,9 @@ footer{
   margin-right: 90px;
   font-size: 18px;
 }
+
+@media (max-width: 425px){
+  footer{
+    gap: 5rem;
+  }
+}

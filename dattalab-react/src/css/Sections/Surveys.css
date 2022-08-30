@@ -22,3 +22,9 @@
   margin: 40px 60px;
   flex-wrap: wrap;
 }
+
+@media (max-width: 425px){
+  .all-container h2{
+    font-size: 2rem;
+  }
+}
