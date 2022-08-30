@@ -60,6 +60,7 @@ const ContactModal = ( { show, onHide } ) => {
           size="md"
           aria-labelledby="contained-modal-title-vcenter"
           centered
+          className='contact-modal'
         >
           <Modal.Header>
             <Modal.Title id="contained-modal-title-vcenter">
@@ -138,8 +139,14 @@ const ContactModal = ( { show, onHide } ) => {
             </Form.Group>
           </Modal.Body>
           <Modal.Footer>
-            <Button onClick={onHide} variant='danger'>Cancelar</Button>
-            <Button variant="success" type="submit" >
+            <Button 
+            onClick={onHide} 
+            variant='danger'
+            className='contact-modal-cancel-btn' >Cancelar</Button>
+            <Button 
+            variant="success" 
+            type="submit"
+            className='contact-modal-send-btn' >
               Enviar
             </Button>
           </Modal.Footer>

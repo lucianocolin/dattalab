@@ -40,7 +40,10 @@ const ShowSurveyModal = ({ show, onHide, title, header }) => {
         </div>
       </Modal.Body>
       <Modal.Footer className='survey-modal-footer'>
-        <Button variant='danger' onClick={onHide}>Cerrar</Button>
+        <Button 
+        variant='danger' 
+        onClick={onHide}
+        className='show-survey-modal-close-btn'>Cerrar</Button>
       </Modal.Footer>
     </Modal>
   )
