@@ -1,22 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../css/Sections/WhatWeDo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import ContactImg from '../../imgs/contact.jpg'
 import { Button } from 'react-bootstrap';
 import ContactModal from '../Modals/ContactModal';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const WhatWeDo = () => {
 
   const [showModal, setShowModal] = useState(false);
 
+  useEffect(()=>{
+    Aos.init({ duration: 1000 })
+  },[])
+
   return (<>
     <h2 className='wwd-title'>¿Qué Hacemos?</h2>
-    <div className='to-who'>
+    <div className='to-who' data-aos='fade-up'>
       <p>Propuestas dirigidas a dirigentes políticos y sociales, funcionarios, directivos de ONG, empresarios de mandos medios y superiores</p>
     </div>
     <div className='cards-container'>
-      <div className='consulting-card'>
+      <div className='consulting-card' data-aos='flip-down'>
         <h5>Consultoría Política</h5>
         <p>
           • Posicionamiento e imagen. <br />
@@ -26,9 +32,11 @@ const WhatWeDo = () => {
           • Diseño de discursos <br />
           • Storytelling
         </p>
-        <FontAwesomeIcon icon={faUserTie} className='consulting-icon' />
+        <div className='consulting-icon-container'>
+          <FontAwesomeIcon icon={faUserTie} className='consulting-icon' />
+        </div>
       </div>
-      <div className='surveys-card'>
+      <div className='surveys-card' data-aos='flip-down'>
         <h5>Encuestas en vivo</h5>
         <p>
           • Resultados reales. <br />

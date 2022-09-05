@@ -18,10 +18,10 @@ const Header = () => {
         <nav className='navbar'>
           <ul>
             <li>
-              <Link to='#home' className='link'>INICIO</Link>
+              <Link to='/' className='link'>INICIO</Link>
             </li>
             <li>
-              <Link to='#whatWeDo' className='link'>QUÉ HACEMOS</Link>
+              <Link to='/' className='link'>QUÉ HACEMOS</Link>
             </li>
             <li>
               <Link to='/' className='link'>ENCUESTAS EN VIVO</Link>

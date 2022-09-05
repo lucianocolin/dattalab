@@ -20,7 +20,7 @@ const Home = () => {
       </div>
       <div className='us-section'>
         <h2>Dattalab Consultora</h2>
-        <p>Somos una consultora especializada en comunicación política con 10 años de trayectoría. 
+        <p  data-aos='fade-up'>Somos una consultora especializada en comunicación política con 10 años de trayectoría. 
           Nos dedicamos a la asesoría personalizada mediante consultoría privada, encuestas con un sistema 
           propio y bases de datos actualizadas para obtener resultados reales, orientando a nuestros clientes
           sobre su imágen pública, la de su equipo o partido político y sobre el pensamiento general sobre un 

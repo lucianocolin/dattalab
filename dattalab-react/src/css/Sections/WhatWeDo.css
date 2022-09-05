@@ -26,10 +26,12 @@
 }
 
 .consulting-card{
+  display: flex;
+  flex-direction: column;
   background-color: #6298E7;
   color: white;
   width: 550px;
-  height: 340px;
+  height: auto;
   font-family: 'Helvetica';
   margin-top: 50px;
   margin-left: 150px;
@@ -51,16 +53,18 @@
 
 .consulting-icon{
   position: absolute;
-  left: 580px;
-  top: 1690px;
+  bottom: 2rem;
+  right: 6rem;
   font-size: 70px;
 }
 
 .surveys-card{
+  display: flex;
+  flex-direction: column;
   background-color: #70C4B2;
   color: white;
   width: 550px;
-  height: 340px;
+  height: auto;
   font-family: 'Helvetica';
   margin-top: 50px;
   margin-right: 150px;
@@ -82,8 +86,8 @@
 
 .survey-icon{
   position: absolute;
-  right: 270px;
-  top: 1690px;
+  bottom: 2rem;
+  right: 6rem;
   font-size: 70px;
 }
 
@@ -105,7 +109,8 @@
 
 @supports(object-fit: cover){
   .contact-img img{
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     object-position: center;
   }
