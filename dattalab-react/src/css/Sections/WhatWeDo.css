@@ -136,26 +136,34 @@
 @media (max-width: 425px){
 
   .cards-container{
-    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+    gap: 2rem;
   }
 
   .wwd-title{
-    margin-top: 30px;
-    font-size: 2rem;
+    margin-top: 0;
+    font-size: 1.5rem;
     padding: 10px;
+    margin-bottom: 0;
   }
 
   .to-who p{
     font-size: 1rem;
-    padding: 0 10px;
+    padding: 0 1rem;
+    margin: 0;
     text-align: center;
   }
 
   .consulting-card{
-    width: 20rem;
-    height: 27rem;
+    width: 80%;
+    height: auto;
     margin-bottom: 50px;
+    margin: 0;
+    padding: 1rem;
   }
 
   .consulting-card h5{
@@ -163,19 +171,23 @@
   }
   
   .consulting-card p{
-    margin-left: 7px;
+    /* margin-left: 7px; */
     font-size: 0.8rem;
     line-height: 25px;
+    margin-bottom: 2rem;
   }
   
   .consulting-icon{
-    display: none;
+    font-size: 2rem;
+    bottom: 1rem;
+    right: 25%;
   }
 
   .surveys-card{
-    width: 20rem;
-    height: 27rem;
-    margin-bottom: 50px;
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 1rem;
   }
 
   .surveys-card h5{
@@ -183,13 +195,16 @@
   }
 
   .surveys-card p{
-    margin-left: 7px;
+    /* margin-left: 7px; */
     font-size: 0.8rem;
     line-height: 25px;
+    margin-bottom: 3rem;
   }
 
   .survey-icon{
-    display: none;
+    font-size: 2rem;
+    bottom: 1rem;
+    right: 25%;
   }
 
   .contact-img{
@@ -198,7 +213,7 @@
   }
 
   .contact-img p{
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0 1rem;
     margin-top: 4.3rem;
     text-shadow: 1px 1px 20px black;
