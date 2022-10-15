@@ -1,25 +1,47 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../../css/Sections/WhatWeDo.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUserTie, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import ContactImg from '../../imgs/contact.jpg'
 import { Button } from 'react-bootstrap';
 import ContactModal from '../Modals/ContactModal';
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+/* import Aos from 'aos';
+import 'aos/dist/aos.css'; */
 
 const WhatWeDo = () => {
 
   const [showModal, setShowModal] = useState(false);
 
-  useEffect(()=>{
+/*   useEffect(()=>{
     Aos.init({ duration: 1000 })
-  },[])
+  },[]) */
 
   return (<>
+    <div className='wwd-cover'>
+
+    </div>
     <h2 className='wwd-title'>¿Qué Hacemos?</h2>
     <div className='to-who' data-aos='fade-up'>
-      <p>Propuestas dirigidas a dirigentes políticos y sociales, funcionarios, directivos de ONG, empresarios de mandos medios y superiores</p>
+      <p>
+      Dattalab	es	una	consultora	dedicada	a	estrategias	de	Marketing,	Comunicación,	Encuestas	
+      y Sondeos	Telefónicos,	con	mas	de	15 años	de	experiencia	en	campañas de	publicidad,
+      políticas	e	imagen	de	candidatos	y	gobiernos. <br />
+      Nuestra	experiencia	abarca	países	como	México y	Argentina,	participando	en	diferentes	
+      campañas	 publicitarias,	 políticas y	 programas	 de	 Radio	 y	Televisión con	 encuestas	 en	
+      vivo. <br />
+      Nuestro	compromiso	con	los	clientes	es	de	24	horas	los	7	días de	la	semana	brindando	un	
+      servicio	100%	garantizado	y	profesional. <br />
+      Contamos	 con	 servidores	 propios	 para	 encuestas	 telefónicas	 y	 mensajes	 de	 voz	 con	
+      respuestas	en	tiempo	real, garantizando	al	cliente	rapidez	y	eficacia	a	la	hora	de	hacer	sus	
+      mediciones,	con	bases	de	datos	actualizadas	tanto	de	celulares	como	de	teléfonos	fijos	y	
+      segmentadas	por	ciudad,	municipio	y	en	algunos	casos	por	distrito	electoral. <br />
+      Con	 nuestros	 sistemas	podrá	medir	en	menos	de	 24	 horas:	intensión	 de	 voto,	imagen,	
+      estado	 de	 la	 competencia,	 necesidades	 de	 la	 población,	 anunciar	 nuevas	 obras,	
+      convocatorias	de	eventos,	lanzamiento	de	nuevos	productos etc. <br />
+      Garantizamos efectividad,	 transparencia	 y	 confidencialidad	 a	 nuestros	 clientes	
+      sumándonos	 a	 sus	 equipos	 de	 trabajo	 brindando	 asesoramiento	 en	 el	 caso	 que	 se	
+      requiera.
+      </p>
     </div>
     <div className='cards-container'>
       <div className='consulting-card' data-aos='flip-down'>

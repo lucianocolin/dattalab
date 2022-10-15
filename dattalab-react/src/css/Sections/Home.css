@@ -67,7 +67,7 @@ ul img{
 .us-section{
   text-align: center;
   min-height: 350px;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .us-section h2{
@@ -82,9 +82,9 @@ ul img{
   font-family: 'Helvetica';
   font-size: 20px;
   font-weight: bold;
-  margin-top: 50px;
+  margin: 50px 0;
   padding: 0 200px;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 
