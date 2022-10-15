@@ -2,10 +2,14 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  padding-top: 7px;
 }
 
-img{
+.header-dattalab-logo{
   margin-left: 250px;
+  width: 250px;
+  height: 65px;
 }
 
 .link{
