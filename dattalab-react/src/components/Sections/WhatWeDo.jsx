@@ -5,8 +5,10 @@ import { faUserTie, faChartSimple } from '@fortawesome/free-solid-svg-icons';
 import ContactImg from '../../imgs/contact.jpg'
 import { Button } from 'react-bootstrap';
 import ContactModal from '../Modals/ContactModal';
-/* import Aos from 'aos';
-import 'aos/dist/aos.css'; */
+import amexLogo from '../../imgs/american-express-logo.png';
+import santanderSerfinLogo from '../../imgs/santander-serfin-logo.jpg';
+import leonAlperovichLogo from '../../imgs/leon-alperovich-logo.jpg';
+import gremioPetrolerosLogo from '../../imgs/gremio-petroleros-logo.jpg';
 
 const WhatWeDo = () => {
 
@@ -18,7 +20,15 @@ const WhatWeDo = () => {
 
   return (<>
     <div className='wwd-cover'>
-
+    </div>
+    <div className='company-values'>
+      <p>
+        Experiencia <br />
+        Dedicación <br />
+        Compromiso <br />
+        Rapidéz <br />
+        Eficacia <br />
+      </p>
     </div>
     <h2 className='wwd-title'>¿Qué Hacemos?</h2>
     <div className='to-who' data-aos='fade-up'>
@@ -35,7 +45,7 @@ const WhatWeDo = () => {
       respuestas	en	tiempo	real, garantizando	al	cliente	rapidez	y	eficacia	a	la	hora	de	hacer	sus	
       mediciones,	con	bases	de	datos	actualizadas	tanto	de	celulares	como	de	teléfonos	fijos	y	
       segmentadas	por	ciudad,	municipio	y	en	algunos	casos	por	distrito	electoral. <br />
-      Con	 nuestros	 sistemas	podrá	medir	en	menos	de	 24	 horas:	intensión	 de	 voto,	imagen,	
+      Con	 nuestros	 sistemas	podrá	medir	en	menos	de	 24	 horas:	intención	 de	 voto,	imagen,	
       estado	 de	 la	 competencia,	 necesidades	 de	 la	 población,	 anunciar	 nuevas	 obras,	
       convocatorias	de	eventos,	lanzamiento	de	nuevos	productos etc. <br />
       Garantizamos efectividad,	 transparencia	 y	 confidencialidad	 a	 nuestros	 clientes	
@@ -45,7 +55,7 @@ const WhatWeDo = () => {
     </div>
     <div className='cards-container'>
       <div className='consulting-card' data-aos='flip-down'>
-        <h5>Consultoría Política</h5>
+        <h5>Consultoría</h5>
         <p>
           • Posicionamiento e imagen. <br />
           • Diseño y ejecución de campañas electorales. <br />
@@ -63,12 +73,48 @@ const WhatWeDo = () => {
         <p>
           • Resultados reales. <br />
           • Bases de datos actualizadas. <br />
-          • Preguntas diseñadas en conjunto con el cliente. <br />
+          • Preguntas diseñadas en base a los
+           requerimientos del cliente. <br />
           • Medición en vivo de los resultados. <br />
           • Gráficos con imágenes. <br />
           • Análisis posterior de resultados.
         </p>
         <FontAwesomeIcon icon={faChartSimple} className='survey-icon' />
+      </div>
+    </div>
+    <div className='wwd-clients-section'>
+      <h2>Algunos de nuestros clientes</h2>
+      <div className='clients-cards-container' data-aos='fade-up'>
+        <div className='individual-client-card-container'>
+          <div className='client-card'>
+            <img src={amexLogo} alt="amex logo" className='clients-logos' />
+          </div>
+          <p>American Express (México)</p>
+        </div>
+        <div className='individual-client-card-container'>
+          <div className='client-card'>
+            <img src={santanderSerfinLogo} alt="santander logo" className='clients-logos' />
+          </div>
+          <p>
+            Santander Serfin <br />
+            (Capital Federal)
+            </p>
+        </div>
+        <div className='individual-client-card-container'>
+          <div className='client-card'>
+            <img src={leonAlperovichLogo} alt="leon alperovich logo" className='clients-logos' />
+          </div>
+          <p>León Alperovich (Tucumán)</p>
+        </div>
+        <div className='individual-client-card-container'>
+          <div className='client-card'>
+            <img src={gremioPetrolerosLogo} alt="gremio de petroleros logo" className='clients-logos' />
+          </div>
+          <p>
+            Gremio de Petroleros <br />
+            (Neuquén)
+          </p>
+        </div>
       </div>
     </div>
     <div className='contact-img'>
