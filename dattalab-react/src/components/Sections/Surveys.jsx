@@ -34,6 +34,15 @@ const Surveys = () => {
   return (
     <div className="all-container">
       <div className="surveys-cover"></div>
+      <div className='company-values-surveys'>
+        <p>
+          Experiencia <br />
+          Dedicación <br />
+          Compromiso <br />
+          Rapidéz <br />
+          Eficacia <br />
+        </p>
+      </div>
       <h2 data-aos="fade-up">Encuestas realizadas</h2>
       <div className="cards2-container" data-aos="fade-up">
         {cardsData.map((card) => (
