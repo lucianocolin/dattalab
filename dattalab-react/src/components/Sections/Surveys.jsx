@@ -4,31 +4,39 @@ import Cards from "../Cards/Cards";
 import pregunta1 from "../../imgs/pregunta-1.jpg";
 import pregunta2 from "../../imgs/pregunta-2.jpg";
 import pregunta3 from "../../imgs/pregunta-3.jpg";
+import pregunta4 from "../../imgs/pregunta-4.jpg";
 
 const Surveys = () => {
   const cardsData = [
     {
       id: 1,
       header: pregunta1,
-      year: 2018,
+      year: 2022,
       name: "Encuesta 1",
-      title: "¿Qué opinión tiene de la gestión del gobierno provincial?",
+      title: "¿Cómo crees que va a ser tu situación económica el próximo año?",
     },
     {
       id: 2,
       header: pregunta2,
-      year: 2018,
+      year: 2022,
       name: "Encuesta 2",
-      title: "¿A quién votaría como senador/a de la provincia?",
+      title: "¿Cómo es su situación económica comparada al año pasado?",
     },
     {
       id: 3,
       header: pregunta3,
-      year: 2017,
+      year: 2022,
       name: "Encuesta 3",
       title:
-        "¿Quién le gustaría que sea el reemplazo de Roberto Sánchez como concejal?",
-    },
+        "¿Cómo ve a Tucumán con respecto a las otras provincias del Norte?",
+    }, 
+    {
+      id: 4,
+      header: pregunta4,
+      year: 2022,
+      name: "Encuesta 3",
+      title: "¿Qué fuerza política te gustaría que gobierne la provincia?",
+    }
   ];
 
   return (
